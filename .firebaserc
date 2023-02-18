@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "rxjsinreal": {
+      "hosting": {
+        "rxJsInReal": [
+          "rxjsinreal"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "rxjsinreal"
+  }
+}

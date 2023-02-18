@@ -104,8 +104,21 @@
           "options": {
             "browserTarget": "rxJsInReal:build"
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "rxJsInReal:build:production",
+            "firebaseProject": "rxjsinreal",
+            "firebaseHostingSite": "rxjsinreal"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
